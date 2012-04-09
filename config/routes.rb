@@ -17,6 +17,8 @@ NycrubywomenCom::Application.routes.draw do
 
   get "blog/show"
 
+  root :to => 'blog#index'
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
