@@ -1,4 +1,22 @@
 NycrubywomenCom::Application.routes.draw do
+  get "material/index"
+
+  get "contact/index"
+
+  get "people/index"
+
+  get "projects/index"
+
+  get "projects/show"
+
+  get "faq/index"
+
+  get "meetup/index"
+
+  get "blog/index"
+
+  get "blog/show"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
